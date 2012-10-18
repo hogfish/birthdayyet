@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+  body {
+  background-color: #000;
+  color: #fff;
+  font-family:arial,helvetica;
+  text-align: center;
+  }
+  h1 {
+  margin: 0px auto;
+  margin-top: 200px;
+  width: 350px;
+  font-size:8em;
+  text-align:center;
+  }
+  h2 {
+  margin: 0px auto;
+  margin-top: 150px;
+  width: 500px;
+  font-size:1em;
+  text-align:center;
+  }
+  a {
+  color: #fff;
+  }
+  </style>
+  <title>Birthdayyet</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
