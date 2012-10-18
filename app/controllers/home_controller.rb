@@ -1,4 +1,3 @@
-require 'Date'
 class HomeController < ApplicationController
   def index
     @current_date = Time.now
