@@ -12,11 +12,11 @@ class HomeController < ApplicationController
   def do_it
     if birthday_today?
       @answer = "Yes!"
-      @additional = "Happy birthday, Simon! If you're not Simon, and you haven't already got him a present, maybe you should buy something like "
+      @additional = "Happy bath day, Simon! If you're not Simon, and you haven't already got him a present, maybe you should buy something like "
       @link = "http://www.thefancy.com/things/shuffle?ctid=186895654038015905"
     else
-      @answer = "No."
-      @additional = "Did you forget Simon's birthday? Don't worry, you still have time to buy him a present. Maybe something like "
+      @answer = "Maybe."
+      @additional = "Don't think about it too hard. Buy yourself something cool, like "
       @link = "http://www.thefancy.com/things/shuffle?ctid=186895654038015905"
     end
 
