@@ -27,7 +27,7 @@ class HomeController < ApplicationController
   end
 
   def birthday_today?
-    if @current_date.month == 10 && @current_date.day == 7
+    if @current_date.month == 10 && @current_date.day == 6
       true
     else
       false
