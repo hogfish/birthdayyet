@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   end
 
   def the_time_is_now
-    @current_date = Time.new(2012, 10, 7, 0, 0, 0, 0)
+    @current_date = Time.new(2012, 10, 6, 0, 0, 0, 0)
     do_it
   end
 
